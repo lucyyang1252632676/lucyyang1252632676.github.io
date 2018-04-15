@@ -1,0 +1,59 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1cb3f8
+}
+
+ 
+    div {
+        font-size: large;
+        color:rgb(32, 238, 84);
+        transition: color, font-size 2s 2s;
+    }
+    div:hover {
+        font-size: x-large;
+    }
+
+table {
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+p {
+    text-indent: 20px;
+}
+
+h3 {
+    background-color: #1cb3f8;
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+@keyframes myfirst{
+    from {
+        background: red;
+    }
+    to {
+        background: yellow;
+    }
+    }
+    div{
+    animation: myfirst 5s;}   
+.dt {
+    text-align: center
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 0;
+    background-image: url(photo.jpg)
+}
